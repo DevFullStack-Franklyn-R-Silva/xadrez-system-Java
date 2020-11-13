@@ -1,12 +1,6 @@
 package jogoDeTabuleiro;
 
 public class Posicao {
-	/**
-	 * Checklist: 
-	 * 			Class Position[Public] 
-	 * 			OOP Topics: Encapsulation Constructors
-	 * 						ToString(Object / overriding)
-	 */
 
 	// Atributos
 	private Integer linha;

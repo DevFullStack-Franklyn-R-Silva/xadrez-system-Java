@@ -1,14 +1,6 @@
 package jogoDeTabuleiro;
 
 public class Tabuleiro {
-	/**
-	 * Checklist: 
-	 * 			Classes Piece, Board[public] 
-	 * 			OPP Topics: Associations
-	 * 						Encapsulation / Access Modifiers 
-	 * 			Data Structures Topics: 
-	 * 						Matrix
-	 */
 	
 	// Atributos
 	private Integer linhas;
@@ -38,6 +30,14 @@ public class Tabuleiro {
 	public void setColunas(Integer colunas) {
 		this.colunas = colunas;
 	}
+
 	// Métodos
+	public Peca peca(int linha, int coluna) {
+		return pecas[linha][coluna];
+	}
+
+	public Peca peca(Posicao posicao) {
+		return pecas[posicao.getLinha()][posicao.getColuna()];
+	}
 
 }
