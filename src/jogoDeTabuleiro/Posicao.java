@@ -1,15 +1,24 @@
-package tabuleiro;
+package jogoDeTabuleiro;
 
 public class Posicao {
+	/**
+	 * Checklist: 
+	 * 			Class Position[Public] 
+	 * 			OOP Topics: Encapsulation Constructors
+	 * 						ToString(Object / overriding)
+	 */
 
+	// Atributos
 	private Integer linha;
 	private Integer coluna;
 
+	// Construtor
 	public Posicao(Integer linha, Integer coluna) {
 		this.linha = linha;
 		this.coluna = coluna;
 	}
 
+	// Gets e Sets
 	public Integer getLinha() {
 		return linha;
 	}
@@ -30,4 +39,5 @@ public class Posicao {
 	public String toString() {
 		return linha + ", " + coluna;
 	}
+	// Métodos
 }
