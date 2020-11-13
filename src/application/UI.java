@@ -3,7 +3,7 @@ package application;
 import xadrez.PecaDeXadrez;
 
 public class UI {
-
+	// método
 	public static void printTabuleiro(PecaDeXadrez[][] pecas) {
 		for (int i = 0; i < pecas.length; i++) {
 			System.out.print((8 - i) + " ");
@@ -19,7 +19,7 @@ public class UI {
 		if (peca == null) {
 			System.out.print("-");
 		} else {
-			System.out.println(peca);
+			System.out.print(peca);
 		}
 		System.out.print(" ");
 	}
