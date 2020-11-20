@@ -43,7 +43,7 @@ public class UI {
 			int linha = Integer.parseInt(s.substring(1));
 			return new XadrezPosicao(coluna, linha);
 		} catch (RuntimeException e) {
-			throw new InputMismatchException("Error a posição no xadrez. Valores válidos são de a1 a h8.");
+			throw new InputMismatchException("Error a posicao no xadrez. Valores validos sao de a1 a h8.");
 		}
 	}
 
